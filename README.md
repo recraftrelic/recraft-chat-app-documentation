@@ -1,3 +1,5 @@
+[<p align="center"><img width="150" src="./website/static/img/app-logo.png"></p>](https://github.com/recraftrelic/react-native-chat-app-boilerplate/)
+
 <h1 align="center">Recraft ChatApp Documentation</h1>
 
 <p align="center">This website is used for documentation purposes for the Recraft Chat App</p>
