@@ -1,6 +1,6 @@
 ---
 id: Themes
-title: Themes & Languages
+title: Themes
 ---
 
 By default there will be two different app themes provided in the chat app settings:-
@@ -47,23 +47,3 @@ export const lightTheme: AppTheme = {
 
 You can change the predefined values or text according to your requirements.
 If you need to add more themes in the app just define the theme name & various style properties in the above mentioned file.
-
-## Accessing Languages
-Open the config folder present in the root directory to access the Languages file.
-
-```
-cd config
-touch language.ts
-```
-
-```
-export enum LanguageKey {
-  en = "en",
-  fr = "fr",
-  sp = "sp",
-  gr = "gr",
-  ch = "ch"
-}
-```
-
-As you can see there are various predefined languages in the above mentioned file. You can add more languages to use in the chat app.
