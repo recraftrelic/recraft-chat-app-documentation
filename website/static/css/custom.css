@@ -26,3 +26,4 @@
 .imageAlignSide .blockImage { flex: none; }
 ul.chat-list { padding: 0px 0px 0px 20px; }
 .mainContainer .inner { float: left; }
+.container.mainContainer.docsContainer .post { padding-top: 45px; }
