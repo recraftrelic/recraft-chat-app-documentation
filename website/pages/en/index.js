@@ -38,7 +38,10 @@ class HomeSplash extends React.Component {
 class Index extends React.Component {
   render() {
     const {config: siteConfig, language = ''} = this.props;
-    const {baseUrl} = siteConfig;
+    const {baseUrl, docsUrl} = siteConfig;
+    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
+    const langPart = `${language ? `${language}/` : ''}`;
+    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
 
     const Block = props => (
       <Container
@@ -53,11 +56,27 @@ class Index extends React.Component {
       </Container>
     );
 
+    const PromoSection = props => (
+      <div className="section promoSection">
+        <div className="promoRow">
+          <div className="pluginRowBlock">{props.children}</div>
+        </div>
+      </div>
+    );
+
+    const Button = props => (
+      <div className="pluginWrapper buttonWrapper">
+        <a className="button" href={props.href} target={props.target}>
+          {props.children}
+        </a>
+      </div>
+    );
+
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-        <div class="container darkBackground paddingBottom paddingTop">
+        <div class="container lightBackground paddingBottom paddingTop">
           <div class="wrapper">
             <div class="gridBlock">
               <div class="blockElement imageAlignSide imageAlignRight twoByGridBlock">
@@ -77,14 +96,12 @@ class Index extends React.Component {
                         <li>Themes</li>
                         <li>Translations</li>
                       </ul>
-                      <div>
-                        <span><a className="chat-links" href="https://github.com/recraftrelic/react-native-chat-app-boilerplate" target="_blank">Github</a></span>
-                      </div>
-                      <div>
-                        <span><a className="chat-links" href="https://play.google.com/store/apps/details?id=com.reactnativechatappboilerplate" target="_blank">Google Play</a></span>
-                      </div>
-                      <div>
-                        <span><a className="chat-links" href="/chatapp/docs/installation.html" target="_blank">Docs</a></span>
+                      <div className="inner">
+                        <PromoSection>
+                          <Button target="_blank" href="https://github.com/recraftrelic/react-native-chat-app-boilerplate">Github</Button>
+                          <Button target="_blank" href="https://play.google.com/store/apps/details?id=com.reactnativechatappboilerplate">Google Play</Button>
+                          <Button target="_blank" href={docUrl('Installation.html')}>Docs</Button>
+                        </PromoSection>
                       </div>
                     </span>
                   </div>
