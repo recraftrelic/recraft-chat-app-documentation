@@ -41,15 +41,14 @@ const siteConfig = {
     {doc: 'Installation', label: 'Docs'},
     {doc: 'Api', label: 'API'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
+  headerIcon: 'img/app-logo.png',
+  footerIcon: 'img/app-logo.png',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
