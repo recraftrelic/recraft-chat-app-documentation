@@ -21,3 +21,7 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+.mainContainer { padding: 0px; }
+.imageAlignSide .blockImage { flex: none; }
+ul.chat-list { padding: 0px 0px 0px 20px; }
