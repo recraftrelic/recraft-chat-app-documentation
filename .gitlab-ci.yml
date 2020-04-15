@@ -8,7 +8,7 @@ build:
         - another-tag
     script:
         - echo "Building deploy package"
-        - yarn install
+        - cd website
         - yarn build
         - echo "Build successful"
     artifacts:
