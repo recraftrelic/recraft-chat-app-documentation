@@ -9,6 +9,7 @@ build:
     script:
         - echo "Building deploy package"
         - cd website
+        - yarn install
         - yarn build
         - echo "Build successful"
     artifacts:
