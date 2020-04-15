@@ -24,7 +24,7 @@ The login page allows a user to gain access to the chat app by entering their us
 We have also added validation for the user to enter the username & password valid by using Micro validator.
 
 <p align="center">
-  <img width="250" src="../img/undraw_note_list.svg">
+  <img width="250" src="../../img/undraw_note_list.svg">
 </p>
 
 ### Signup Page
@@ -32,7 +32,7 @@ The signup page allows a user to gain access to the chat app by creating their a
 We have also added validation for the user to enter the name, email, username & password valid by using Micro validator.
 
 <p align="center">
-  <img width="250" src="../img/undraw_online.svg">
+  <img width="250" src="../../img/undraw_online.svg">
 </p>
 
 ### ChatList Page
@@ -40,7 +40,7 @@ The chat list page displays the main chat interface with whom you have completed
 we can also view the profile photo of other peoples attached with us and we can also view the pending messages of the chat's which you haven't read till now.
 
 <p align="center">
-  <img width="250" src="../img/undraw_note_list.svg">
+  <img width="250" src="../../img/undraw_note_list.svg">
 </p>
 
 ### ChatDetails Page
@@ -48,7 +48,7 @@ The chat detail page is used to view the messages of the particular person whom 
 we can also share photos, videos, docs etc. via messages to the peoples who are joined with us.
 
 <p align="center">
-  <img width="250" src="../img/undraw_online.svg">
+  <img width="250" src="../../img/undraw_online.svg">
 </p>
 
 ### ChatSetting Page
@@ -57,7 +57,7 @@ We can also change app theme & language according to user needs.
 and we can also logout the current account to add new account.
 
 <p align="center">
-  <img width="250" src="../img/undraw_note_list.svg">
+  <img width="250" src="../../img/undraw_note_list.svg">
 </p>
 
 ### ChatProfile Page
@@ -65,6 +65,6 @@ The chat profile page allows a user to see the particular person profile photo, 
 We can also block, report, delete conversation between the person and the user.
 
 <p align="center">
-  <img width="250" src="../img/undraw_online.svg">
+  <img width="250" src="../../img/undraw_online.svg">
 </p>
 

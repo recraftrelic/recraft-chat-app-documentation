@@ -10,7 +10,11 @@
       "Themes",
       "Languages",
       "Pages",
-      "Components"
+      "Components",
+      "Router",
+      "Store",
+      "Reducers",
+      "Hooks"
     ],
     "Advanced Guides": [
       ""
