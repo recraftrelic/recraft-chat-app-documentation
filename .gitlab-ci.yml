@@ -25,7 +25,7 @@ deploy_production:
       - another-tag
     script:
         - echo "Deploying to server"
-        - cp -rv build/* /var/www/html/documentation/chatapp/
+        - cp -rv build/* /var/www/html/documentation/
         - echo "Deployed"
     environment:
         name: production
