@@ -18,7 +18,7 @@ cd components/Chat
 touch File.tsx
 ```
 
-### Accessing Chat Components
+### Chat Components
 Open the Chat folder present in the component directory to access all the Chat components.
 This type of component are mainly used for particular pages in the chat app.
 
@@ -31,7 +31,7 @@ components/
     ...
 ```
 
-### Accessing UI Components
+### UI Components
 Open the UI folder present in the component directory to access UI components.
 This type of component are useful from the begining of the chat app.
 
@@ -41,10 +41,9 @@ components/
       SearchBar.tsx
       ThemedText.tsx
       ThemedView.tsx
-    ...
 ```
 
-### Accessing HOC Components
+### HOC Components
 Open the HOC folder present in the component directory to access HOC components.
 This type of component are useful from the begining of the chat app.
 
@@ -52,5 +51,4 @@ This type of component are useful from the begining of the chat app.
 components/
     HOC/
       BackHandlerHOC.tsx
-    ...
 ```
