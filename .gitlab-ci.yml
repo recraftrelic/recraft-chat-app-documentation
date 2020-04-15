@@ -4,8 +4,8 @@ stages:
 build:
     stage: build
     tags: 
-        - <tag you provided while registering the token>
-        - <second tag>
+        - my-tag
+        - another-tag
     script:
         - echo "Building deploy package"
         - yarn install
@@ -18,8 +18,8 @@ build:
 deploy_production:
     stage: deploy
     tags: 
-      - <tag you provided while registering the token>
-      - <second tag>
+      - my-tag
+      - another-tag
     script:
         - echo "Deploying to server"
         - cp -rv build/* /var/www/html/documentation/chatapp/
