@@ -4,14 +4,6 @@ stages:
 build:
     stage: build
     tags: 
-<<<<<<< HEAD
-        - <tag you provided while registering the token>
-        - <second tag>
-    script:
-        - echo "Building deploy package"
-        - yarn install
-        - yarn build
-=======
         - my-tag
         - another-tag
     script:
@@ -21,7 +13,6 @@ build:
         - yarn build
         - mkdir ../build
         - cp -rv build/* ../build/
->>>>>>> f9b53455c05cf5118f057225e63b81c0f246d14f
         - echo "Build successful"
     artifacts:
         expire_in: 1 hour
@@ -30,19 +21,11 @@ build:
 deploy_production:
     stage: deploy
     tags: 
-<<<<<<< HEAD
-      - <tag you provided while registering the token>
-      - <second tag>
-    script:
-        - echo "Deploying to server"
-        - cp -rv build/* /var/www/html/documentation/chatapp/
-=======
       - my-tag
       - another-tag
     script:
         - echo "Deploying to server"
         - cp -rv build/* /var/www/html/documentation/
->>>>>>> f9b53455c05cf5118f057225e63b81c0f246d14f
         - echo "Deployed"
     environment:
         name: production
