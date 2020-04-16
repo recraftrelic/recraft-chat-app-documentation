@@ -19,7 +19,7 @@ touch file.tsx
 ```
 
 ### UseBackHandler
-This hook is used to handle the back press action when router moves from one page to another.
+This hook is used to handle the back press action when router moves from one page to another page.
 
 ```
 const useBackHandler = (handleBackPress: () => void) => {
