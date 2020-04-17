@@ -39,4 +39,4 @@ Use a little—or a lot. You can use React Native today in your existing Android
 
 ## [React Native Splash Screen](https://www.npmjs.com/package/react-native-splash-screen)
 
-* A splash screen API for react-native which can programatically hide and show the splash screen. Works on iOS and Android.
+* A splash screen API for react-native which can programmatically hide and show the splash screen. Works on iOS and Android.

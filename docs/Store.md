@@ -10,7 +10,7 @@ Open the Store folder present in the root directory to set the config reducer.
 
 ```
 cd store
-touch intex.ts
+touch index.ts
 ```
 
 ```
