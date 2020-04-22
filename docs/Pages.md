@@ -7,6 +7,8 @@ In the App there are six pages which can be easily customizable by editing their
 * Login
 * Signup
 * ChatList
+* ChatUser
+* ChatGroup
 * ChatDetails
 * ChatSetting
 * ChatProfile
@@ -39,8 +41,32 @@ We have also added validation for the user to enter the name, email, username & 
 The chat list page displays the main chat interface with whom you have completed your chat till now.
 we can also view the profile photo of other peoples attached with us and we can also view the pending messages of the chat's which you haven't read till now.
 
+By clicking on plus icon you can view a dropdown menu which is displayed with two options: 
+* New Chat
+* New Group
+
+For the demonstration for the dropdown menu you can see the second mobile screenshot.
+
 <p align="center">
-  <img width="250" src="../../img/chatlist.png">
+  <img width="250" style="display: inline-block; margin: 0;" src="../../img/chatlist.png"><img width="250" style="display: inline-block; margin: 0;" src="../../img/dropdown.png">
+</p>
+
+### ChatUser Page
+The chat user page displays a list of users and on click of any user you can select that user but you can only select one user at a time.
+By selecting any user it will be highlighted and you can now able yo see a next button at the bottom of the screen.
+On click of selected user you can visit to the users detail page.
+
+<p align="center">
+  <img width="250" src="../../img/chatuser.png">
+</p>
+
+### ChatGroup Page
+The chat group page also displays the same list of users and on click of any user you can select that user but you can also select multiple user at a time.
+The selected users will be highlighted and displayed at the Top Section just below the New Group title and on the extreme right side you can see a next button.
+By clicking on the next button you can able to see a modal window in which you need to enter the group name and you can click on next button to the create group detail page.
+
+<p align="center">
+  <img width="250" style="display: inline-block; margin: 0;" src="../../img/chatgroup.png"><img width="250" style="display: inline-block; margin: 0;" src="../../img/group.png">
 </p>
 
 ### ChatSetting Page
