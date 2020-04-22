@@ -10,7 +10,7 @@ Open the Router folder present in the root directory to access the router file.
 
 ```
 cd router
-touch intex.tsx
+touch index.tsx
 ```
 
 ```

@@ -43,18 +43,18 @@ we can also view the profile photo of other peoples attached with us and we can 
   <img width="250" src="../../img/chatlist.png">
 </p>
 
-### ChatDetails Page
-The chat detail page is used to view the messages of the particular person whom you have selected on the chatlist page.
-we can also share photos, videos, docs etc. via messages to the peoples who are joined with us.
+### ChatSetting Page
+The chat setting page allows a user to change its photo, name, status etc.
+We can also change app theme & language according to user needs.
+and we can also logout the current account to add new account.
 
 <p align="center">
   <img width="250" src="../../img/chatsetting.png">
 </p>
 
-### ChatSetting Page
-The chat setting page allows a user to change its photo, name, status etc.
-We can also change app theme & language according to user needs.
-and we can also logout the current account to add new account.
+### ChatDetails Page
+The chat detail page is used to view the messages of the particular person whom you have selected on the chatlist page.
+we can also share photos, videos, docs etc. via messages to the peoples who are joined with us.
 
 <p align="center">
   <img width="250" src="../../img/chatdetail.png">
